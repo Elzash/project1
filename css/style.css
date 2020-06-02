@@ -1,0 +1,539 @@
+body {
+margin: 0;
+}
+
+.container {
+width: 1280px;
+margin: 0 auto;
+font-family: Arial;
+}
+
+.padding-site {
+padding: 50px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/*-------шрифт для заголовков----*/
+.title{
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161; 
+}
+
+/*------шрифт для текста---------*/
+.text{
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #445161; 
+}
+
+/*------------Шапка сайта--------------*/
+.main-header {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+background-color: #445161;
+color: #fff;
+}
+
+.main-header-wrap {
+width: 458px;
+
+}
+
+.main-header-title {
+margin: 0 0 10px 0;
+font-size: 60px;
+line-height: 1.2;
+font-weight: 400;
+color: #fff;
+}
+
+.main-header-list {
+padding: 0 0 0 30px;
+margin: 0 0 0 0;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+}
+
+.main-header-list-item {
+list-style-type: none;
+position: relative;
+
+}
+
+.main-header-list-item:before {
+content: "";
+display: block;
+width: 25px;
+height: 19px;
+background-image: url(../img/check_icon_346.png);
+background-size: cover;
+position: absolute;
+top: 5px;
+left: -30px;
+}
+
+.main-header-img {
+display: block;
+width: 469px;
+min-height: 214px;
+background-color: #fff;
+color: black;
+}
+
+/*-------------основной контент------------*/
+.content {
+width: 100%;
+}
+
+
+
+/*------------блок About your product--------*/ 
+.about-product{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+color: #445161;  
+}
+
+.about-product-wrap{
+width: 653px;
+}
+
+.about-product-wrap-heading{
+margin: 0 0 20px 0;
+}
+
+.about-product-wrap-text{
+margin: 0 0 15px 0;
+}
+
+.about-product-wrap-text:last-child {
+margin: 0;
+}
+
+video{
+background-color: #445161;
+}
+
+/*---------блок Dignity and pluses product-----*/
+
+.dignity{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background-color: #f5f5f5;
+}
+
+.dignity-heading {
+width: 100%;
+margin: 0 0 30px 0;
+text-align: center;
+}
+
+.dignity-item-wrap {
+width: 50%;
+}
+
+.dignity-item {
+width: 100%;
+margin: 0 0 30px 0;
+padding: 0 0 0 40px;
+box-sizing: border-box;
+}
+
+.dignity-item:last-child{
+margin: 0;
+}
+
+.dignity-item-title {
+display: block;
+position: relative;
+}
+
+.dignity-item-title::-webkit-details-marker {
+display: none;
+}
+
+.dignity-item-title:before {
+content: "+";
+display: block;
+width: 32px;
+height: 32px;
+background-color: #445161;;
+color: #fff;
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+line-height: 32px;
+position: absolute;
+top: 2px;
+left: -40px;
+}
+
+
+/*-------------блок Screenshots-------------*/
+
+.screenshots{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.screenshots-heading {
+width: 100%;
+margin: 0 0 30px 0;
+text-align: center;
+}
+
+.screenshots-wrap{
+width: 50%;
+}
+
+.screenshots-figure {
+width: 100%;
+margin: 0 0 30px 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.screenshots-wrap figure:last-of-type{
+margin: 0;
+}
+
+.screenshots-figure img{
+background-color: #445161;
+color: #fff;
+margin: 0 15px 0 0; 
+} 
+
+.screenshots-figure figcaption{
+width: 360px;
+padding: 0;
+}
+
+.screenshots-figure-heading{
+margin: 0 0 2px 0;
+padding: 0;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+color: #445161;
+}
+
+.screenshots-figure-text{
+ margin: 0;   
+}
+
+/*-------------блок Reviews-------------*/
+
+.reviews{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
+background-color: #f5f5f5;
+}
+
+.reviews-heading {
+width: 100%;
+margin: 0 0 30px 0;
+text-align: center;
+}
+
+.reviews-item {
+width: 49%;
+margin: 0 0 24px 0;
+padding: 0;    
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.reviews div:nth-last-of-type(2),
+.reviews div:last-of-type{
+margin: 0;
+}
+
+.review-photo{
+display: block;
+width: 75px;
+min-height: 75px;
+background-color: #445161;
+border-radius: 50%;
+color: #fff;
+}
+
+.review-text {
+width: 77%;
+margin: 0 0 0 25px;
+padding: 16px;
+background-color: #ebebeb;
+border-radius: 10px;
+position: relative;
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+font-style: italic;
+color: #445161;
+}
+
+.review-text:before {
+content: "";
+display: block;
+border: 13px solid transparent; 
+border-right: 13px solid #ebebeb;
+position: absolute;
+top: 35px;
+left: -25px;
+}
+
+.review-text span {
+display: block;
+margin: 5px 0 0 0;
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+color: #989898;
+}
+
+/*-------------блок BUY-------------*/
+
+.buy{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-end;
+}
+
+.buy-heading{
+width: 100%;
+margin: 0 0 30px 0;
+text-align: center;  
+}
+
+.buy-item {
+width: 25%;
+margin: 0 45px 0 0;
+padding: 0 0 10px 0;
+border: 2px  solid #445162;
+background-color: #445162;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.buy div:last-of-type{
+margin: 0;
+}
+
+.buy-title{
+display: block;
+width: 100%;
+text-align: center;
+padding: 18px;
+color: #fff;
+box-sizing: border-box;
+text-transform: capitalize;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+}
+
+.buy-text{
+display: block;
+width: 100%;
+text-align: center;
+background-color: #fff;
+padding: 18px;
+font-size: 40px;
+line-height: 30px;
+font-weight: 400;
+color: #445162;
+box-sizing: border-box;
+}
+
+.buy-list{
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #fff;
+list-style-position:inside;
+padding: 20px;
+margin: 0;
+}
+
+.buy-button{
+display: block;
+width: 260px;
+padding: 14px;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 5px;
+border: 1px solid transparent;
+text-transform: uppercase;
+outline: none;
+font-size: 18px;
+line-height: 18px;
+font-weight: 700;
+color: #445161;
+}
+
+.buy-button:hover {
+background-color: #445161;
+color: #fff;
+border: 1px solid #fff;
+}
+
+.buy-button:active {
+background-color: #fff;
+color: #445161;
+}
+
+/*-------------блок Contacts-------------*/
+
+.main-footer{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #445162;
+}
+
+.main-footer-heading {
+width: 100%;
+margin: 0 0 30px 0;
+text-align: center;
+color: #fff;
+}
+
+.main-footer-form{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 500px;
+margin: 0 45px 0 0; 
+}
+
+.main-footer-form input[type="text"],
+.main-footer-form input[type="email"],
+.main-footer-form textarea {
+width: 100%;
+margin: 0 0 20px 0;
+padding: 10px;
+box-sizing: border-box;
+border: 1px solid #445162;
+border-radius: 5px;
+background-color:  #fff;
+outline: none;
+}
+
+.main-footer-form textarea {
+width: 500px;
+height: 170px;
+border: 1px solid #445162;
+border-radius: 5px;
+background-color:  #fff;
+outline: none;
+resize:  none;
+}
+
+.main-footer-form input[placeholder],
+.main-footer-form textarea[placeholder] {
+font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #445162;
+text-align: left;
+}  
+
+.main-footer-form input[type="text"]:hover,
+.main-footer-form input[type="email"]:hover,
+.main-footer-form textarea:hover {
+background-color: lightgray;
+}
+
+.main-footer-form input[type="submit"] {
+border-radius: 5px;
+background-color:  #fff;
+width: 140px;
+height: 40px;
+text-transform: uppercase;
+color:  #445162;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+outline: none;
+border: 1px solid transparent;
+}
+
+.main-footer-form input[type="submit"]:hover {
+background-color: #445162;
+border: 1px solid #fff;
+color: white;
+}
+
+.main-footer-form input[type="submit"]:active {
+background-color:  #fff;
+color:  #445162;
+}
+
+.main-footer-contacts {
+width: 240px;
+color: #fff;
+}
+
+.main-footer-contacts-link {
+display: block;
+margin: 0 0 27px 0;
+padding: 0;
+position: relative;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+text-align: left;
+}
+
+.main-footer-contacts-link  i{
+font-size: 28px;
+}
+
+.main-footer-contacts-link:last-of-type {
+margin: 0 0 32px 0;
+}
+
+.main-footer-contacts-icons {
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+
+.main-footer-contacts-net {
+display: flex;
+width: 42px;
+height: 42px;
+box-sizing: border-box;
+color: #445162;
+background-color:#fff; 
+justify-content: center;
+align-items: center;
+text-decoration: none;
+border-radius: 50%;
+font-size: 20px;
+}
+
+.main-footer-contacts-net:hover{
+background-color: lightgray;
+}
